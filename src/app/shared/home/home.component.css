@@ -1,0 +1,77 @@
+
+/* NAVBARRRR */
+.main{
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.548);
+  margin-bottom: 20px;
+  padding: 10px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header a{
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.header a:hover{
+  color: lightblue;
+}
+
+.navbar{
+  margin-top: 15px;
+}
+
+.navbar-menu{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+}
+
+.navbar-links a{
+  font-size: 20px;
+  transition: all 300ms;
+}
+
+.navbar-links a:hover{
+  color: lightblue;
+}
+
+/* BANNERRRR */
+.banner{
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.banner-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.banner-info h1,p,button{
+  font-family: 'poppins';
+}
+
+.banner-img img{
+  width: 700px;
+  border-radius: 60px;
+}
+
+
+

@@ -1,0 +1,43 @@
+
+
+<div class="card-info">
+  <h1>Registrate</h1>
+  <hr>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="inputs">
+      <label for="name">Name</label>
+      <input  type="text"
+              formControlName="name"
+              class="input"
+              placeholder="Introduce your name">
+              <span [style.color]="'red'" *ngIf="validate('name')">El Name es incorrecto</span>
+    </div>
+    <div class="inputs">
+      <label for="email">Email</label>
+      <input  type="email"
+              formControlName="email"
+              class="input"
+              placeholder="Introduce your email"
+              >
+              <span [style.color]="'red'" *ngIf="validate('email')">El Email es incorrecto</span>
+    </div>
+    <div class="inputs">
+      <label for="password">Password</label>
+      <input  type="password"
+              formControlName="password"
+              class="input"
+              placeholder="Introduce your password">
+              <span [style.color]="'red'" *ngIf="validate('password')">El Password es incorrecto</span>
+    </div>
+    <button type="submit"
+            class="primer-boton"
+            >Sign In</button>
+  </form>
+  <h5 id="tiene">Ya tienes cuenta?</h5>
+  <a [routerLink]="['/autentication/login']">Join Here</a>
+  <div class="ir-casa">
+    <a [routerLink]="['/home']">Go Home</a>
+  </div>
+</div>
+
+

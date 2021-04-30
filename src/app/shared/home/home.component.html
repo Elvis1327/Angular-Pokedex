@@ -1,0 +1,28 @@
+<div class="main">
+  <header class="header">
+    <a>
+      PokemonApp
+    </a>
+    <nav class="navbar">
+      <ul class="navbar-menu">
+        <li class="navbar-links"><a [routerLink]="['/autentication/login']">Log In</a></li>
+        <li class="navbar-links"><a [routerLink]="['/autentication/register']">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner">
+    <div class="banner-info">
+      <h1>Bienvenido a este pokedex pokedex.</h1>
+      <p>
+        Aqui podras encontrar cualquier pokemon que desees
+        solo deberas registrarte primero y luego podras acceder
+        al Pokedex.
+      </p>
+      <button class="btn btn-primary" (click)="navigate()">Ver Pokedex</button>
+    </div>
+    <div class="banner-img">
+      <img src="../../../assets/banner.png" alt="picture" width="300px">
+    </div>
+  </div>
+
+</div>

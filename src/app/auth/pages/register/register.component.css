@@ -1,0 +1,46 @@
+
+.card-info{
+  margin: 0px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: 350px;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card-info h1{
+  transition: all 350ms;
+}
+.card-info h1:hover{
+  color: rgb(150, 202, 219);
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+
+}
+.input{
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.primer-boton{
+  padding: 10px;
+  width: 220px;
+  border-radius: 20px;
+  outline: none;
+  background-color: rgba(127, 255, 212, 0.418);
+  margin-bottom: 2px;
+}
+
+#tiene{
+  margin: 0px;
+}
+
+

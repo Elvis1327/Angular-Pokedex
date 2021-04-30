@@ -1,0 +1,44 @@
+
+.card-info{
+  width: 350px;
+  margin: 0px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputs{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#boton1{
+  width: 150px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: rgba(127, 255, 212, 0.418);
+  margin-top: 0px;
+}
+#h5{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+
+
+
+
+

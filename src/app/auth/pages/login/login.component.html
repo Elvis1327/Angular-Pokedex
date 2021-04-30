@@ -1,0 +1,35 @@
+
+
+<div class="card-info">
+  <h1>Inica Seccion</h1>
+  <hr>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <div class="inputs">
+      <label for="email">Email</label>
+      <input  type="email"
+              formControlName="email"
+              placeholder="Introduce your Email"
+              class="input"
+              #email>
+              <span [style.color]="'red'" *ngIf="validar('email')">El email no es valido</span>
+    </div>
+    <div class="inputs">
+      <label for="password">Password</label>
+      <input  type="password"
+              formControlName="password"
+              class="input"
+              placeholder="Introduce your password">
+              <span [style.color]="'red'" *ngIf="validar('password')">debe de tener mas de 6 caracteres</span>
+    </div>
+    <button type="submit"
+            id="boton1"
+            >Log In</button>
+          </form>
+          <h5 id="h5">Aun no tienes Cuenta?</h5>
+          <a [routerLink]="['/autentication/register']">Registrate Aqui</a>
+          &nbsp;
+          <div class="ir-casa">
+            <a [routerLink]="['/home']">Go Home</a>
+          </div>
+</div>
+
